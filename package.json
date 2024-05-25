@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --env-file=dev.env --watch index.js"
+    "start": "node --env-file=prod.env src/index.js"
   },
   "author": "Ankit Das",
   "license": "ISC",
